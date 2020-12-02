@@ -2,7 +2,7 @@ function Index() {
   return (
     <div className="parent">
       <div className="child">mylo wants to know, is the McRib back yet?</div>
-      <div className="child no">no</div>
+      <div className="child yes">no</div>
       <img className="mcrib-image" alt="mcrib" src="/images/McRib.jpg" />
 
       <style jsx>{`
@@ -15,8 +15,8 @@ function Index() {
           width: 100%;
         }
 
-        .no {
-          color: red;
+        .yes {
+          color: green;
         }
 
         .parent {
