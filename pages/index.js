@@ -2,7 +2,7 @@ function Index() {
   return (
     <div className="parent">
       <div className="child">mylo wants to know, is the McRib back yet?</div>
-      <div className="child yes">no</div>
+      <div className="child yes">yes</div>
       <img className="mcrib-image" alt="mcrib" src="/images/McRib.jpg" />
 
       <style jsx>{`
