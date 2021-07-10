@@ -1,9 +1,12 @@
-function Index() {
+import mcRibImage from "public/images/McRib.jpg";
+import Image from "next/image";
+
+export default function Index() {
   return (
     <div className="parent">
       <div className="child">mylo wants to know, is the McRib back yet?</div>
       <div className="child yes">yes</div>
-      <img className="mcrib-image" alt="mcrib" src="/images/McRib.jpg" />
+      <Image alt="McRib" className="mcrib-image" src={mcRibImage} />
 
       <style jsx>{`
         .child {
@@ -30,5 +33,3 @@ function Index() {
     </div>
   );
 }
-
-export default Index;
