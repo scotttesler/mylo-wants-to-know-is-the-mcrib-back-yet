@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <div className="parent">
       <div className="child">mylo wants to know, is the McRib back yet?</div>
-      <div className="child yes">yes</div>
+      <div className="child no">no</div>
       <Image alt="McRib" className="mcrib-image" src={mcRibImage} />
 
       <style jsx>{`
@@ -16,6 +16,10 @@ export default function Index() {
 
         .mcrib-image {
           width: 100%;
+        }
+        
+        .no {
+          color: red;
         }
 
         .yes {
